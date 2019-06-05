@@ -1,0 +1,75 @@
+#main{
+    display: grid;
+    margin-top: 150px;
+    margin-left: 500px;
+
+}
+
+.main_border{
+    border: black 1px solid;
+    border-radius: 25px;
+    background-image: url("https://sky-wall.ru/uploads/source/2017/02/preview/84f83c18b60b4b371f0868692fe8f734.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+    background-color: #696969;
+    box-shadow: 0 0 20px rgba(255,0,0,1);
+    padding: 10px;
+}
+
+.text_up{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.login{
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.border_login{
+    width: 250px;
+    height: 20px;
+    border-radius: 8px;
+    border: darkgray 1px solid;
+    background-color: dimgrey;
+    box-shadow: 0 0 20px rgba(255,0,0,1);
+}
+
+.password{
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 43px;
+}
+
+.border_password{
+    width: 250px;
+    height: 20px;
+    border-radius: 8px;
+    border: darkgray 1px solid;
+    background-color: dimgrey;
+    box-shadow: 0 0 20px rgba(255,0,0,1);
+}
+
+.q{
+    color: blue;
+    margin-left: 42px;
+}
+
+.enter_b{
+    background-color: dimgrey;
+    margin-top: 40px;
+    color: white ;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 140px;
+    width: 120px;
+    height: 35px;
+    box-shadow: 0 0 20px rgba(255,0,0,1);
+}
+
