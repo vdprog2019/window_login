@@ -15,11 +15,15 @@
                     <span>Войти в личный кабинет</span>
                 </div>
                 <hr width="300px" size="2px">
-                //login
+
                 <div class="login">
-                    <span>Логин</span>&nbsp;<input class="border_login" name="login_php">
+                    <span>Логин</span>&nbsp;<input class="border_login" name="login_php" id="login"
+                                                   onmouseover="$('#border_login_alt').css('visibility', 'visible'); "
+                                                   onmouseleave="$('#border_login_alt').css('visibility', 'HIDDEN').css('margin','0px')"
+                >
+                    <div id="border_login_alt">Ваш логин</div>
                 </div>
-               //password
+
                 <div class="password">
                    <span>Пароль</span>&nbsp;<input type="password" class="border_password" name="password_php">
                 </div>
@@ -36,10 +40,5 @@
            </div>
         </form>
     </div>
-
-
-    <script>
-
-    </script>
 </body>
 </html>
